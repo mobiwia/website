@@ -1,0 +1,1079 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="MobiWIA Tools">
+      
+      
+        <link rel="canonical" href="https://mobiwia.com/gpsstatus/">
+      
+      
+        <meta name="author" content="MobiWIA Ltd.">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.languages" content="">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.12.1">
+    
+    
+      
+        <title>User Guide - MobiWIA</title>
+      
+    
+    
+      <script src="../assets/javascripts/modernizr-e826f8942a.js"></script>
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application-04ea671600.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-23f75ab9c7.palette.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Light:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto Light","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+  
+  
+  
+    <body data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://mobiwia.com" title="MobiWIA" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon md-icon--home"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  GPS Status
+                </span>
+              
+            
+            User Guide
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href=".." title="Blog" class="md-tabs__link">
+        Blog
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="./" title="GPS Status" class="md-tabs__link md-tabs__link--active">
+          GPS Status
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../autokiller/" title="Autokiller" class="md-tabs__link">
+          Autokiller
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../autorun/" title="Autorun Manager" class="md-tabs__link">
+          Autorun Manager
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../company/" title="Company" class="md-tabs__link">
+          Company
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon md-icon--home"></i>
+      
+    </span>
+    MobiWIA
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Blog" class="md-nav__link">
+      Blog
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      GPS Status
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        GPS Status
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        User Guide
+      </label>
+    
+    <a href="./" title="User Guide" class="md-nav__link md-nav__link--active">
+      User Guide
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#before-you-start" title="Before you start" class="md-nav__link">
+    Before you start
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-does-it-do" title="What does it do?" class="md-nav__link">
+    What does it do?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#status-screen" title="Status screen" class="md-nav__link">
+    Status screen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#status-notification" title="Status Notification" class="md-nav__link">
+    Status Notification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#radar-screen" title="Radar screen" class="md-nav__link">
+    Radar screen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locations" title="Locations" class="md-nav__link">
+    Locations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sensor-diagnostics" title="Sensor Diagnostics" class="md-nav__link">
+    Sensor Diagnostics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings" title="Settings" class="md-nav__link">
+    Settings
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="faq/" title="F.A.Q." class="md-nav__link">
+      F.A.Q.
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="eula/" title="EULA" class="md-nav__link">
+      EULA
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="privacy/" title="Privacy Policy" class="md-nav__link">
+      Privacy Policy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="getpro/" title="Get PRO" class="md-nav__link">
+      Get PRO
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Autokiller
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Autokiller
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autokiller/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autokiller/details/" title="Theory" class="md-nav__link">
+      Theory
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autokiller/procman/" title="Process Manager" class="md-nav__link">
+      Process Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autokiller/faq/" title="F.A.Q." class="md-nav__link">
+      F.A.Q.
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autokiller/trouble/" title="Troubleshooting" class="md-nav__link">
+      Troubleshooting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autokiller/system-tweaks/" title="System Tweaks" class="md-nav__link">
+      System Tweaks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autokiller/changelog/" title="Changelog" class="md-nav__link">
+      Changelog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autokiller/privacy/" title="Privacy Policy" class="md-nav__link">
+      Privacy Policy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autokiller/donate/" title="Go PRO" class="md-nav__link">
+      Go PRO
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Autorun Manager
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Autorun Manager
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autorun/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autorun/userguide/" title="User Guide" class="md-nav__link">
+      User Guide
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autorun/faq/" title="F.A.Q." class="md-nav__link">
+      F.A.Q.
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autorun/trouble/" title="Troubleshooting" class="md-nav__link">
+      Troubleshooting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autorun/changelog/" title="Changelog" class="md-nav__link">
+      Changelog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autorun/privacy/" title="Privacy Policy" class="md-nav__link">
+      Privacy Policy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../autorun/donate/" title="Go PRO" class="md-nav__link">
+      Go PRO
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Company
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Company
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../company/" title="About Us" class="md-nav__link">
+      About Us
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../company/eula/" title="License" class="md-nav__link">
+      License
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../company/privacy/" title="Privacy Policy" class="md-nav__link">
+      Privacy Policy
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#before-you-start" title="Before you start" class="md-nav__link">
+    Before you start
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-does-it-do" title="What does it do?" class="md-nav__link">
+    What does it do?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#status-screen" title="Status screen" class="md-nav__link">
+    Status screen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#status-notification" title="Status Notification" class="md-nav__link">
+    Status Notification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#radar-screen" title="Radar screen" class="md-nav__link">
+    Radar screen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locations" title="Locations" class="md-nav__link">
+    Locations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sensor-diagnostics" title="Sensor Diagnostics" class="md-nav__link">
+    Sensor Diagnostics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings" title="Settings" class="md-nav__link">
+    Settings
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="user-guide">User Guide<a class="headerlink" href="#user-guide" title="Permanent link">&para;</a></h1>
+<h2 id="before-you-start">Before you start<a class="headerlink" href="#before-you-start" title="Permanent link">&para;</a></h2>
+<p>If you have problems with the GPS receiver (no lock), 
+or issues with the sensors (wrong compass orientation etc.), please read the <a href="faq/">FAQ</a>. 
+The FAQ contains a lot of useful information about possible problems, use cases etc.</p>
+<h2 id="what-does-it-do">What does it do?<a class="headerlink" href="#what-does-it-do" title="Permanent link">&para;</a></h2>
+<p><strong>GPS Status &amp; Toolbox</strong> is a simple program to show all the GPS and sensor data of 
+your phone. It is designed to be simple, yet effective. It helps you to see what is 
+happening while the GPS is trying to acquire your locations and can be used as a 
+simple compass, as a leveling tool. It will measure the phone’s speed and acceleration, 
+the brightness or the air pressure (if your phone has the necessary sensors.) The 
+program also supports basic navigation functions that are useful when you are out 
+in the wild. The app has four main screens plus it can display a system notification 
+to show GPS data.</p>
+<ul>
+<li><strong>Status</strong> - display for all your raw data</li>
+<li><strong>Radar</strong> - for basic off-road navigation</li>
+<li><strong>Locations</strong> - for your stored locations</li>
+<li><strong>Sensors</strong> - for listing and testing all the sensors available in your device</li>
+<li><strong>Settings</strong> - for customizing units, display properties</li>
+</ul>
+<h2 id="status-screen">Status screen<a class="headerlink" href="#status-screen" title="Permanent link">&para;</a></h2>
+<p><img src="images/ug-status.png" width="360" /> </p>
+<p>The screen has three main parts: The <strong>sky grid (G)</strong>, the <strong>signal strength 
+bar (V)</strong> and the <strong>instrument panels</strong>.</p>
+<p>The sky grid <strong>(G)</strong> shows the GPS satellites above you as the receiver in the 
+phone detects them. GPS satellites (with IDs 1-32) are represented by disks. 
+GLONASS satellites (with IDs r1-r25) are shown as rectangles, BEIDOU satellites 
+(with IDs c1-c33) are shown as crosses (x) while GALILEO sats (with IDs e1-e35) 
+are displayed as plus (+) signs. The size of the symbol depends on the signal 
+strength received from that satellite. The color shows what data is available 
+for that satellite and how it is currently used by the phone.</p>
+<ul>
+<li><span style="color: green;">green</span>: satellite is used while determining the location</li>
+<li><span style="color: orange;">yellow</span>: all orbital data is available, but the satellite is not used</li>
+<li><span style="color: blue;">blue</span>: only rough orbital data (almanach) is available</li>
+<li><span style="color: grey;">grey</span>: orbital data is not available</li>
+</ul>
+<p>Usually at least 4 satellites are required to have a lock. The more satellites are available 
+the more accurate the position will be (to a certain limit. i.e. having 20 sats in a lock does 
+not really increase the accuracy compared to 10). Certain phones may opt to use only a single 
+constellation at a time and fall back to others if that constellation does not have enough 
+visible satellites.) The order of preference is market dependent, however it is mostly GPS, 
+then GLONASS and then BEIODU. As of the beginning of 2017 only a few phones support 
+the GALILEO constellation. If you have problems getting a fix, please <a href="faq/">read the FAQ</a> 
+for troubleshoothing tips.</p>
+<p>The compass needle <strong>(C)</strong> in the center of the grid will show you the direction of the 
+magnetic field as measured by your phone. (This may or may not be the actual magnetic north, 
+depending on how much extra magnetic field is present in your environment. Magnetic anomalies 
+are always present in buildings and vehicles so you should <strong>NOT</strong> expect your compass to 
+work flawlessly in these environments.) The program automatically calculates the magnetic 
+declination (the difference between magnetic and true north) and the absolute strength of 
+the magnetic field at your current location <strong>(M)</strong>. If the measured field is stronger 
+than the calculated you will see the needle grow while with weaker fields the needle will 
+shrink. If there are no extra magnetic fields in your environment the needle should be roughly 
+the same size as the inner circle of the sky grid. In addition to this, the magnetic compass 
+in your phone reports the accuracy of the measurement. </p>
+<p>If the needle gets transparent (or you see a question mark appearing in the magnetic
+field reading instrument) then the compass may need a recalibration (in the side navigation 
+<em>Compass Calibration</em> menu). The recalibration 
+can be done any time the app is running (i.e. you don't need to enter the 'Calibration' dialog, 
+however that dialog displays the accuracy reported by the phone so you will get a bit better 
+feedback.) You can recalibrate by either rotation your phone several times along its 3 axes 
+(as instructed in the dialog), or by less scientifically, just simply holding your phone and 
+waving it in an 8 pattern. You should test which method works best as it is also dependent on 
+the actual firmware of the phone.</p>
+<p>Magnetic compasses are inherently inaccurate. GPS can do a much better job determining your 
+direction of movement. By default the sky grid aligns itself using the magnetic compass. 
+Once you move faster than 5km/h a green arrow will appear showing your direction of movement 
+and the sky grid will align using the much more accurate GPS heading data. The red/blue arrows 
+<strong>(W)</strong> around the perimeter of the grid show the true north/south while the red/blue dots 
+<strong>(X)</strong> show the magnetic north/south. The difference between the two direction is known as 
+the magnetic declination <strong>(M)</strong>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>There is a small empty circle <strong>(Y)</strong> (can be turned off in Settings) that allows you to find the direction of any satellite. Just turn and tilt your phone until the circle covers a satellite symbol. Your phone will point towards the real satellite that is some 20000 km away from you. (This feature is not particularly useful, but it is extremely geeky!)</p>
+</div>
+<p>The grid also contains a moving amber circle (can be turned off in Settings). This can 
+be used as a leveling tool <strong>(L)</strong> to find horizontal or vertical surfaces using your phone. 
+You may need to calibrate the leveling tool before using it (in the side navigation menu).</p>
+<p>In the <strong>PRO</strong> version, the rotation speed <strong>(R)</strong> of the phone is also displayed along the 
+perimeter of the sky grid. The longer the green arcs, the faster the phone is rotating.</p>
+<p>The signal strength bars <strong>(V)</strong> show the individual satellite signal strength values. 
+The bar is divided into 4 parts displaying GPS, GLONASS, BEIDOU and GALILEO sats (left to right).</p>
+<p>The rest of the screen displays numerical values derived from the phone’s sensors and GPS.</p>
+<ul>
+<li>Heading <strong>(H)</strong>: the absolute direction the phone is facing</li>
+<li>Orientation <strong>(O)</strong>: main cardinal points your phone is heading currently</li>
+<li>aGPS data age <strong>(E)</strong>: the age of the GPS assistance data used for speeding up the GPS locks.</li>
+<li>Error <strong>(E)</strong>: the accuracy of the actual location information.</li>
+<li>Number of satellites <strong>(F)</strong>: the number of satellites used for the actual fix and the total number of satellites visible for the GPS receiver (GPS+GLONASS/total.)</li>
+<li>Pitch and Roll <strong>(L)</strong>: the attitude of your phone.</li>
+<li>Magnetic field <strong>(M)</strong>: the three values represent the strength of measured magnetic field / the calculated strength of the field / magnetic declination (the difference between true and magnetic north). (Tip: the first slash will turn into a question mark if the phone detects that you have to recalibrate the phone’s magnetometer.)</li>
+<li>Acceleration <strong>(Z)</strong>: the measured linear acceleration of the phone.</li>
+<li>Speed <strong>(S)</strong>: the actual speed measured by the GPS.</li>
+<li>Altitude <strong>(A)</strong>: the current altitude relative to the Mean Sea Level (MSL) or the WGS84 geoid (configured in Settings).</li>
+<li>Last fix <strong>(I)</strong>: the GPS time of the last valide fix that is shown currently on the screen.</li>
+<li>Location (latitude/longitude) <strong>(J)</strong>: The acquired GPS location (format is configured in Settings).</li>
+<li>Battery info <strong>(B)</strong>: the remaining charge, battery voltage and temperature.</li>
+<li>DOP (dilution of precision) <strong>(D)</strong>: a value that represents how optimal the satellite constellation is. Smaller values represent better satellite arrangement. The total, horizontal and vertical component is also displayed.</li>
+<li>Brightness <strong>(K)</strong>: the measured light flux (if the phone supports it). The accuracy of this value is dependent on the quality of the brightness sensor.</li>
+<li>Pressure <strong>(P)</strong> [<strong>PRO</strong>]: atmospheric pressure measured by the phone sensor (if the phone supports it).</li>
+<li>Rotation speed <strong>(R)</strong> [<strong>PRO</strong>]: this is the direct readout from the phone’s gyroscope sensor (if the phone supports it).</li>
+<li>Ambient temperature <strong>(T)</strong> [<strong>PRO</strong>]: the temperature around the phone (available only on Galaxy S4 and Note3).</li>
+<li>Dewpoint <strong>(N)</strong> [<strong>PRO</strong>]: the temperature below which water vapor will start condense (available only on Galaxy S4 and Note3).</li>
+<li>Humidity <strong>(Q)</strong> [<strong>PRO</strong>]: the amount of water vapor in the air (available only on Galaxy S4 and Note3).</li>
+<li>Humidex <strong>(U)</strong> [<strong>PRO</strong>]: an index that shows how hot the weather feels to the average person (available only on Galaxy S4 and Note3).</li>
+</ul>
+<h2 id="status-notification">Status Notification<a class="headerlink" href="#status-notification" title="Permanent link">&para;</a></h2>
+<p><img src="images/ug-monitor.png" width="360" /></p>
+<p>By default, the application will show the most important GPS data whenever the 
+GPS is accesses, even if other apps accessing it.</p>
+<p>If you do not need the notification feature, you can turn it off in 
+<em>Settings / Background Behavior / GPS Status in Notification -&gt; Never</em>.</p>
+<ul>
+<li><strong>(A)</strong> Number of satellites: GPS in use [+ GLONASS in use] / Total visible</li>
+<li><strong>(B)</strong> Average signal to noise ratio (0-40dB)</li>
+<li><strong>(D)</strong> Dilution of Precision (smaller is better)</li>
+<li><strong>(S)</strong> Speed</li>
+<li><strong>(L)</strong> Current location</li>
+<li><strong>(A)</strong> Altitude</li>
+<li><strong>(E)</strong> Position accuracy</li>
+</ul>
+<p>Tapping on the notification item will open GPS Status. This is an easy way to open the app from any other application that is using the GPS. Wait for the lock in GPS Status then press the back button to immediately return to the original application without loosing the lock. The notification have some extra actions that allows you to dismiss it temporarily, re-download the aGPS data, or mark your current position for future use.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This feature uses little to no battery as the notification is updated only when it is shown. The display routine does NOT access or keep the GPS open. It just intercepts the location data that is requested by the other application. GPS Status never keeps the GPS open if it was put into the background.</p>
+</div>
+<h2 id="radar-screen">Radar screen<a class="headerlink" href="#radar-screen" title="Permanent link">&para;</a></h2>
+<p><img src="images/ug-radar.png" width="360" /></p>
+<p>Radar screen can store a single way point (Edit/Mark action button) and allows you to navigate back using the GPS and the internal compass in your phone. Just move towards the point and use the screen as it would be a "radar". The radar screen will display heading and distance to the target point. It is possible to enter or edit the target coordinates and you can also share your current location by using the Share action. The marked point can be displayed in any of the supported mapping applications. Additional waypoints can be displayed on the radar if you change the given waypoint's visibility on the Locations screen (tap the eye icon).</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Long tapping the Edit/Mark mark location button will immediately store the current location as a target (and will override the previous target without displaying a dialog). This is useful to drop a breadcrumb so you will be able to get back here later (i.e. after parking a car etc.)</p>
+</div>
+<ul>
+<li>Heading <strong>(H)</strong>: the absolute direction the phone is facing.</li>
+<li>Orientation <strong>(O)</strong>: main cardinal points your phone is heading currently.</li>
+<li>Compass needle <strong>(C)</strong>: magnetic compass needle.</li>
+<li>Error <strong>(E)</strong>: the accuracy of the actual location information.</li>
+<li>Distance <strong>(D)</strong> : distance to the current target point.</li>
+<li>Accuracy range <strong>(F)</strong> : the current position accuracy shown as a range around the actual position.</li>
+<li>Target (latitude/longitude) <strong>(L)</strong>: the coordinates of the currently selected target point.</li>
+<li>Speed <strong>(S)</strong>: the actual speed.</li>
+<li>Altitude <strong>(A)</strong>: the current altitude relative to the Mean Sea Level (MSL) or the WGS84 geoid (configured in Settings).</li>
+<li>Bearing <strong>(V)</strong> : Bearing to the target point</li>
+<li>Location (latitude/longitude) <strong>(J)</strong>: the current location.</li>
+<li>Target point <strong>(T)</strong> : the target point shown on the radar grid relative to the current position.</li>
+<li>Additional waypoints <strong>(W)</strong> [<strong>PRO</strong>]: additional waypoints selected on the <em>Locations</em> screen.</li>
+</ul>
+<h2 id="locations">Locations<a class="headerlink" href="#locations" title="Permanent link">&para;</a></h2>
+<p><img src="images/ug-locations.png" width="360" /> </p>
+<p>This screen allows you to store 3 waypoints persistently (unlimited in PRO version). 
+Long tapping an item puts the list into edit mode where you can select more items or 
+reorder them. After selecting items you can export them by choosing the "Export" 
+item the action bar. Importing in KML, CSV and GPX format is also available here.
+ 
+<img src="images/ug-edit-target.png" width="330" /></p>
+<p>Waypoints can be added either from the Radar screen by opening the Edit target 
+dialog and choosing "Save as POI" or by tapping the 'Add location' button on the 
+'Locations' screen. You can assign a color to the point. You can edit an item by 
+tapping on it. The Edit dialog allows you to select the given point as a target 
+on the Radar screen.</p>
+<h2 id="sensor-diagnostics">Sensor Diagnostics<a class="headerlink" href="#sensor-diagnostics" title="Permanent link">&para;</a></h2>
+<p><img src="images/ug-sensors.png" width="360" /></p>
+<p>This screen can be used for troubleshooting phone sensor issues. It displays 
+all possible sensors and marks the ones that are actually supported by your 
+device. It also tries to acquire some values from the sensors to see 
+whether they are working correctly. If you see error marks on the list, 
+tap the entry and follow the instruction to test the given sensors properly.</p>
+<h2 id="settings">Settings<a class="headerlink" href="#settings" title="Permanent link">&para;</a></h2>
+<p><img src="images/ug-settings.png" width="360" /></p>
+<p>Display units, UI language, sensor filtering, color scheme, message used for sharing 
+your location and a bunch of other options can be configured to customize the 
+application. Note that GPS Status is using the WGS84 datum whenever coordinates are used.</p>
+<p><a href="./GPSStatusProES.pdf">Spanish PDF version</a></p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Blog" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Blog
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="faq/" title="F.A.Q." class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                F.A.Q.
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2012 - 2017 MobiWIA Ltd.
+          </div>
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://mobiwia.com" class="md-footer-social__link fa fa-globe"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application-946997f430.js"></script>
+      
+      
+      <script>app.initialize({version:"0.16.3",url:{base:".."}})</script>
+      
+    
+    
+      
+      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-32843483-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+      
+    
+  </body>
+</html>
