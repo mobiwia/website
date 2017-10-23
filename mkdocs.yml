@@ -1,0 +1,115 @@
+# Copyright (c) 2016-2017 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: MobiWIA
+site_description: MobiWIA Tools
+site_author: MobiWIA Ltd.
+site_url: https://mobiwia.com
+
+# Repository
+#repo_name: rhornig/mobiwia-web
+#repo_url: https://github.com/rhornig/mobiwia-web
+
+# Copyright
+copyright: 'Copyright &copy; 2012 - 2017 MobiWIA Ltd.'
+
+theme: material
+# Theme directory
+#theme_dir: mobiwia_theme
+
+# Options
+extra:
+  language: en
+  feature:
+    tabs: true
+  font:
+    text: 'Roboto Light'
+    code: 'Roboto Mono'
+  palette:
+    primary: indigo
+    accent: indigo
+  social:
+    - type: globe
+      link: https://mobiwia.com
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+pages:
+  - Blog: index.md
+  - GPS Status:
+    - User Guide: gpsstatus/index.md
+    - F.A.Q.: gpsstatus/faq.md
+    - EULA: gpsstatus/eula.md
+    - Privacy Policy: gpsstatus/privacy.md
+    - Get PRO: gpsstatus/getpro.md
+  - Autokiller:
+    - Introduction: autokiller/index.md
+    - Theory: autokiller/details.md
+    - Process Manager: autokiller/procman.md
+    - F.A.Q.: autokiller/faq.md
+    - Troubleshooting: autokiller/trouble.md
+    - System Tweaks: autokiller/system-tweaks.md
+    - Changelog: autokiller/changelog.md
+    - Privacy Policy: autokiller/privacy.md
+    - Go PRO: autokiller/donate.md
+  - Autorun Manager:
+    - Introduction: autorun/index.md
+    - User Guide: autorun/userguide.md
+    - F.A.Q.: autorun/faq.md
+    - Troubleshooting: autorun/trouble.md
+    - Changelog: autorun/changelog.md
+    - Privacy Policy: autorun/privacy.md
+    - Go PRO: autorun/donate.md
+  - Company:
+    - About Us: company/index.md
+    - License: company/eula.md
+    - Privacy Policy: company/privacy.md
+
+# Google Analytics
+google_analytics:
+  - 'UA-32843483-1'
+  - 'auto'
