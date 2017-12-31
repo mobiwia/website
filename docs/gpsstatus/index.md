@@ -160,7 +160,7 @@ Radar screen can store a single way point (Edit/Mark action button) and allows y
 - Target (latitude/longitude) **(L)**: the coordinates of the currently selected target point.
 - Speed **(S)**: the actual speed.
 - Altitude **(A)**: the current altitude relative to the Mean Sea Level (MSL) or the WGS84 geoid (configured in Settings).
-- Bearing **(V)** : Bearing to the target point
+- Bearing **(B)** : Bearing to the target point
 - Location (latitude/longitude) **(J)**: the current location.
 - Target point **(T)** : the target point shown on the radar grid relative to the current position.
 - Additional waypoints **(W)** \[**PRO**\]: additional waypoints selected on the *Locations* screen.
