@@ -25,8 +25,8 @@ site_author: MobiWIA Ltd.
 site_url: https://mobiwia.com
 
 # Repository
-#repo_name: rhornig/mobiwia-web
-#repo_url: https://github.com/rhornig/mobiwia-web
+#repo_name: mobiwia/mobiwia-web
+#repo_url: https://github.com/mobiwia/mobiwia-web
 
 # Copyright
 copyright: 'Copyright &copy; 2012 - 2017 MobiWIA Ltd.'
@@ -36,7 +36,17 @@ theme: material
 #theme_dir: mobiwia_theme
 
 # Options
-extra:
+theme:
+  name: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
   language: en
   feature:
     tabs: true
@@ -46,6 +56,8 @@ extra:
   palette:
     primary: indigo
     accent: indigo
+
+extra:
   social:
     - type: globe
       link: https://mobiwia.com
