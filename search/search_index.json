@@ -192,13 +192,23 @@
         }, 
         {
             "location": "/gpsstatus/privacy/", 
-            "text": "Privacy Policy\n\n\nWe are using advertising identifiers to personalise ads and to gather usage statistics.\nWe also share such identifiers and other personally non-identifiable information from your\ndevice with our advertising and analytics partners. We do not collect any personally identifiable\ninformation without your explicit consent.", 
+            "text": "Privacy Policy\n\n\nShort version\n\n\nWe are using advertising identifiers to personalise ads and to gather usage statistics and app health data.\nWe share such identifiers and other personally non-identifiable information from your device with our\nadvertising and analytics service providers. Currently the following 3\nrd\n party services are used\nfor these purposes:\n\n\n\n\nGoogle AdMob - for advertisements in the free version\n\n\nGoogle Firebase Analytics - for aggregated usage analytics\n\n\nGoogle Firebase Remote Config - for occasional A/B testing\n\n\nGoogle Crashlytics - for app diagnostics\n\n\nGithub Pages - for hosting the companion website\n\n\n\n\nWe do not collect any personally identifiable information without your explicit consent.\n\n\nFull version\n\n\nThe full version of the detailed \nPrivacy Policy is available here\n.", 
             "title": "Privacy Policy"
         }, 
         {
             "location": "/gpsstatus/privacy/#privacy-policy", 
-            "text": "We are using advertising identifiers to personalise ads and to gather usage statistics.\nWe also share such identifiers and other personally non-identifiable information from your\ndevice with our advertising and analytics partners. We do not collect any personally identifiable\ninformation without your explicit consent.", 
+            "text": "", 
             "title": "Privacy Policy"
+        }, 
+        {
+            "location": "/gpsstatus/privacy/#short-version", 
+            "text": "We are using advertising identifiers to personalise ads and to gather usage statistics and app health data.\nWe share such identifiers and other personally non-identifiable information from your device with our\nadvertising and analytics service providers. Currently the following 3 rd  party services are used\nfor these purposes:   Google AdMob - for advertisements in the free version  Google Firebase Analytics - for aggregated usage analytics  Google Firebase Remote Config - for occasional A/B testing  Google Crashlytics - for app diagnostics  Github Pages - for hosting the companion website   We do not collect any personally identifiable information without your explicit consent.", 
+            "title": "Short version"
+        }, 
+        {
+            "location": "/gpsstatus/privacy/#full-version", 
+            "text": "The full version of the detailed  Privacy Policy is available here .", 
+            "title": "Full version"
         }, 
         {
             "location": "/gpsstatus/getpro/", 
