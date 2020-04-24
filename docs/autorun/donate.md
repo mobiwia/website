@@ -1,4 +1,4 @@
-[Go PRO](donate.html)
+[Go PRO](donate.md)
 ---------------------
 
 If you like my work please consider buying the PRO version, this will support further development.

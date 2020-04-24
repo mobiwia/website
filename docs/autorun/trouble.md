@@ -11,7 +11,7 @@ Please check this list before reporting any problems, most cases can be solved e
 -   Superuser app sometimes cannot grant su rights on boot, check [SuperSU](https://play.google.com/store/apps/details?id=eu.chainfire.supersu)
 -   Is Autorun Manager on phone memory? It won't work properly from sd, please move it back to inner memory.
 -   Please try an uninstall - reboot - reinstall cycle.
--   Have you read the [faq?](faq.html)
+-   Have you read the [faq?](faq.md)
 
 ## PRO application cannot validate?
 

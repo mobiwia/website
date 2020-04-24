@@ -4,7 +4,7 @@
 
 [![Famous Software Download](http://download.famouswhy.com/awards/Famous_Software_Award_Logo.png)](http://download.famouswhy.com/autokiller/) [<img src="http://st04.androidpit.info/img/common/report_silver.png" alt="AndroidPIT Android Market" width="123" height="137" />](http://www.androidpit.com/en/android/tests/test/392288/Tweak-your-system-thanks-to-AutoKiller-Memory-Optimizer)
 
-AutoKiller Memory Optimizer is designed to fine-tune android system's inner memory manager routines to keep your device fast and smooth. It also features a full-powered process manager which lets you control your whole system. If you want to know what it does and how it works you shall read about [details](autokiller/details.html "theory"), [process manager](autokiller/procman.html "process manager") and check the [faq](autokiller/faq.html "f.a.q.").
+AutoKiller Memory Optimizer is designed to fine-tune android system's inner memory manager routines to keep your device fast and smooth. It also features a full-powered process manager which lets you control your whole system. If you want to know what it does and how it works you shall read about [details](details.md "theory"), [process manager](procman.md "process manager") and check the [faq](faq.md "f.a.q.").
 
 Features:
 

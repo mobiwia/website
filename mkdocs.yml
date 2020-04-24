@@ -49,7 +49,7 @@ theme:
 
   language: en
   feature:
-    tabs: true
+    - tabs
   font:
     text: 'Roboto Light'
     code: 'Roboto Mono'
@@ -59,7 +59,7 @@ theme:
 
 extra:
   social:
-    - type: globe
+    - icon: fontawesome/solid/globe-europe
       link: https://mobiwia.com
 
 # Extensions

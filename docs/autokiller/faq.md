@@ -6,7 +6,7 @@ The main functionality is a minfree manager (see theory section) which tweaks sy
 
 ## How does it work?
 
-Please check [theory/technical details](details.html "theory") part of this site, [this](http://androidforums.com/eris-all-things-root/158846-autokiller-vs-setcpu.html#post1452069) is also a good reading.
+Please check [theory/technical details](details.md "theory") part of this site, [this](http://androidforums.com/eris-all-things-root/158846-autokiller-vs-setcpu.html#post1452069) is also a good reading.
 
 ## Why is it good to me?
 
