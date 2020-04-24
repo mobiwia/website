@@ -2,7 +2,7 @@
 
 ## AutoKiller Memory Optimizer
 
-[![Famous Software Download](http://download.famouswhy.com/awards/Famous_Software_Award_Logo.png)](http://download.famouswhy.com/autokiller/) [<img src="http://st04.androidpit.info/img/common/report_silver.png" alt="AndroidPIT Android Market" width="123" height="137" />](http://www.androidpit.com/en/android/tests/test/392288/Tweak-your-system-thanks-to-AutoKiller-Memory-Optimizer)
+[![Famous Software Download](http://download.famouswhy.com/awards/Famous_Software_Award_Logo.png)](http://download.famouswhy.com/autokiller/)
 
 AutoKiller Memory Optimizer is designed to fine-tune android system's inner memory manager routines to keep your device fast and smooth. It also features a full-powered process manager which lets you control your whole system. If you want to know what it does and how it works you shall read about [details](details.md "theory"), [process manager](procman.md "process manager") and check the [faq](faq.md "f.a.q.").
 
@@ -42,13 +42,13 @@ Features:
 <img src="images/device6.png" alt="screenshot" class="screenshot" /> 
 <img src="images/device7.png" alt="screenshot" class="screenshot" /> 
 ![screenshot](images/devicet.png)
-[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_large.png)](https://play.google.com/store/apps/details?id=com.rs.autokiller)
+[![Get it on Google Play](../img/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.rs.autokiller)
 
 ## Go PRO
 
 If you like my work please consider buying the PRO version, this will support further development.
 
-[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_large.png)](https://play.google.com/store/apps/details?id=com.rs.autokiller.pro)
+[![Get it on Google Play](../img/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.rs.autokiller.pro)
 
 
 

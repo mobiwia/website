@@ -29,7 +29,7 @@ site_url: https://mobiwia.com
 #repo_url: https://github.com/mobiwia/mobiwia-web
 
 # Copyright
-copyright: 'Copyright &copy; 2012 - 2017 MobiWIA Ltd.'
+copyright: 'Copyright &copy; 2012 - 2020 MobiWIA Ltd.'
 
 theme: material
 # Theme directory
