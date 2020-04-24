@@ -90,7 +90,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-pages:
+nav:
   - Blog: index.md
   - GPS Status:
     - User Guide: gpsstatus/index.md
